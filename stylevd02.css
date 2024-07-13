@@ -1,52 +1,29 @@
-h1::before {
-    content: 'Город ';
-    color: red;
-    font-size: 50px:
-    border-radius: 10px;
-    background-color: bisque;
+.card{
+   width: 600px;
+   height: 500px;
+   background-color: #cccccc;
+   border-radius: 20px;
 }
 
-h1::after {
-    content: ' -лучший';
-    color: red;
-    font-size: 50px:
-    border-radius: 10px;
-    background-color: bisque;
+.foto {
+    float: left;
+    margin-left: 10px;
+    height: 40%;
+    padding: 40px;
+    border-radius: 20px;
 }
 
-h1::first-letter {
-    color: deeppink;
-    font-size: 50px;
-    border-radius: 10px;
-    background-color: bisque;
+.h1 {
+    padding: 30px;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    background-color: deeppink;
-    border-radius: 50%;
-    position: fixed;
-    transition: 1s;
-    top: 500px;
-    left: 300px;
+.info_1 {
+   padding: 15px;
+   height: 50%;
 }
 
-div:hover {
-    background-color: #0080ff;
-    width: 150px;
-    height: 150px;
-    transition: 1s;
-}
-
-a:link {
-    color: deeppink;
-}
-
-a:visited {
-    color: green;
-}
-
-a:active {
-    color: blue;
+.info_2 {
+   padding-left: 50px;
+   padding-right: 20px;
+   height: 50%;
 }
