@@ -1,6 +1,6 @@
 body {
-    background-image: url('fotos/system.jpg');
-    background-size: cover; /* Растягивает изображение, чтобы оно полностью заполнило фон */
+    /*background-image: url('fotos/system.jpg');
+    background-size: cover; Растягивает изображение, чтобы оно полностью заполнило фон */
     background-position: center; /* Выравнивает изображение по центру */
     background-repeat: no-repeat; /* Запрещает повторение фонового изображения */
     font-family: Noto Sans, sans-serif;
@@ -65,7 +65,7 @@ h1 {
     display: none;
     text-decoration: none;
     color: white;
-    background-color: grey;
+    background-color: #000080;
     background-image: ;
     padding: 10px 15px;
     border-radius: 5px;
@@ -74,7 +74,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: opacity 0.9s ease;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 .card:hover {
